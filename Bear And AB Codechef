@@ -1,0 +1,16 @@
+for _ in range(int(input())):
+    a,b = [int(c) for c in input().split()]
+    s = str(input())
+    k = 0
+    p = 0
+    z = 0
+    for i in range(a):
+        if s[i] == 'a':
+            k+=1
+                
+        elif s[i]  == 'b':
+            p+=1
+            z+=k    
+            
+    z = z*b + k*p*(b*(b-1)//2)
+    print(z)
