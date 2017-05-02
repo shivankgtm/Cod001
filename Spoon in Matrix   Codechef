@@ -1,0 +1,41 @@
+#  https://www.codechef.com/problems/SPOON
+
+for _ in range(int(input())):
+    r,c = [int(a) for a in input().split()]
+    k = 0
+    z = []
+    for i in range(r):
+        s = str(input())
+        s = s.lower()
+        z.append(s)
+    
+    for j in range(r):
+        if 'spoon' in z[j]:
+            print('There is a spoon!')
+            k+=1
+            break
+    if k == 0:
+        n = []
+        for x in range(c):
+            m = []
+            for y in range(r):
+                m.append(z[y][x])
+            m = ''.join(map(str, m))  
+            n.append(m)
+        for p in range(c):
+            if 'spoon' in n[p]:
+                print('There is a spoon!')
+                k+=1
+                break  
+    if k == 0:
+        print('There is indeed no spoon!')
+       
+       
+       
+  # first take input
+  # make it lowercase and append the word in a list
+  # check for spoon in a list
+  #               if yes then print positive
+                  if no make a list using the word formed in a column 
+                              search spoon in that if yes answer positice
+                                                    else  negative
