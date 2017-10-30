@@ -1,2 +1,2 @@
 # Cod001
-solutions for competitive programming problems 
+My name is Ayush Jain 
