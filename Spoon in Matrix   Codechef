@@ -37,5 +37,5 @@ for _ in range(int(input())):
   # check for spoon in a list
   #               if yes then print positive
                   if no make a list using the word formed in a column 
-                              search spoon in that if yes answer positice
+                              search spoon in that if yes print positice
                                                     else  negative
