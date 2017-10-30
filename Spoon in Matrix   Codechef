@@ -39,3 +39,4 @@ for _ in range(int(input())):
                   if no make a list using the word formed in a column 
                               search spoon in that if yes answer positice
                                                     else  negative
+   
