@@ -15,9 +15,7 @@ for _ in range(int(input())):
             k+=1
             break
     if k == 0:
-        n = []
-        for x in range(c):
-            m = []
+        n = [and a little bit more than a bit better than you might have seen 
             for y in range(r):
                 m.append(z[y][x])
             m = ''.join(map(str, m))  
