@@ -9,9 +9,9 @@ for _ in range(int(input())):
     b = str(input())
     for i in a:  
         p = ord(i)
-        s[p]+=1               # calculated How Many times a char appered in string a.
+        s[p]+=1               # calculated How Many times a char appeared in string a.
     for j in b:
-        p = ord(j)            # calculated How Many times a char appered in string b.
+        p = ord(j)            # calculated How Many times a char appeared in string b.
         m[p]+=1
     for l in range(257):
         k += min(s[l],m[l])    # minimum count because have to be match in both
