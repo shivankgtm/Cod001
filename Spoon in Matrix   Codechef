@@ -36,6 +36,6 @@ for _ in range(int(input())):
   # make it lowercase and append the word in a list
   # check for spoon in a list
   #               if yes then print positive
-                  if no make a list using the word formed in a column 
+                  if no make a list using word formed in a column 
                               search spoon in that if yes answer positice
                                                     else  negative
