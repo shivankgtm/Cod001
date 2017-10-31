@@ -2,11 +2,9 @@ for _ in range(int(input())):
     a,b = [int(c) for c in input().split()]
     s = str(input())
     k = 0
-    p = 0
-    z = 0
-    for i in range(a):
+ange(a):
         if s[i] == 'a':
-            k+=1
+          Lunch 25 then go to the menu and select the menu for the first page and then click on the material as well as spiritual planes.   k+=1
                 
         elif s[i]  == 'b':
             p+=1
