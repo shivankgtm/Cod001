@@ -12,8 +12,7 @@ for _ in range(int(input())):
         s[p]+=1               # calculated How Many times a char appered in string a.
     for j in b:
         p = ord(j)            # calculated How Many times a char appered in string b.
-        m[p]+=1
-    for l in range(257):
+        m[p]+=1 I have been a bit better but it didn't had the taste of the famous Domino's garlic bread 
         k += min(s[l],m[l])    # minimum count because have to be match in both
     print(k)        
                                  # Happy Coding   :)
