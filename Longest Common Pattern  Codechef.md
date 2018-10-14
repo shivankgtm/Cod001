@@ -1,6 +1,8 @@
-# https://www.codechef.com/problems/LCPESY   >>  probleam link
-solution in python 3.x
+# Longest Common Pattern 
+https://www.codechef.com/problems/LCPESY   >>  probleam link
+Solution in python 3.x
 
+```python
 for _ in range(int(input())):
     s = [0]*257                #  for integers , small letters and capital letters
     m = [0]*257                # ( [65-90][A-B],  [97-122][a-z],]
@@ -18,5 +20,5 @@ for _ in range(int(input())):
     print(k)        
                                  # Happy Coding   :)
                                  
-                                 
+```                        
                                  
